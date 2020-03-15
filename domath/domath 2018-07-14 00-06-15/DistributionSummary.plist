@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>domath.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>bitcode</key>
+			<true/>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>FFA4954B91F09F9AB41D905E0F058D0904514D9A</string>
+				<key>dateExpires</key>
+				<string>7/13/19</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>S8LBLGHJFU.Suss.example.domath</string>
+				<key>beta-reports-active</key>
+				<true/>
+				<key>com.apple.developer.team-identifier</key>
+				<string>S8LBLGHJFU</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>S8LBLGHJFU.Suss.example.domath</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>domath.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>848cae70-b2e6-4403-8f8d-05977273739e</string>
+				<key>name</key>
+				<string>iOS Team Store Provisioning Profile: Suss.example.domath</string>
+			</dict>
+			<key>symbols</key>
+			<true/>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>S8LBLGHJFU</string>
+				<key>name</key>
+				<string>Alexey Potashnikov</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
