@@ -45,33 +45,7 @@
 		32C3FE8320E784C500D22936 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3FE8220E784C500D22936 /* settingsViewController.swift */; };
 		32C3FE8620E79B3700D22936 /* globalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C3FE8520E79B3700D22936 /* globalVariables.swift */; };
 		32E4BB7121117D1D00D8035C /* launchBackground6.png in Resources */ = {isa = PBXBuildFile; fileRef = 32E4BB7021117D1D00D8035C /* launchBackground6.png */; };
-		32E4BB8D211740E200D8035C /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E4BB8A2117408800D8035C /* Charts.framework */; };
-		32E4BB8E211740E200D8035C /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 32E4BB8A2117408800D8035C /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		32E4BB892117408800D8035C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 32E4BB842117408800D8035C /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
-			remoteInfo = Charts;
-		};
-		32E4BB8B2117408800D8035C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 32E4BB842117408800D8035C /* Charts.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
-			remoteInfo = ChartsTests;
-		};
-		32E4BB8F211740E200D8035C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 32E4BB842117408800D8035C /* Charts.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = A58A4ED274A941CA248EA921;
-			remoteInfo = Charts;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		32E4BB832111A26000D8035C /* Embed Frameworks */ = {
@@ -80,7 +54,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				32E4BB8E211740E200D8035C /* Charts.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,7 +101,6 @@
 		32C3FE8220E784C500D22936 /* settingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
 		32C3FE8520E79B3700D22936 /* globalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalVariables.swift; sourceTree = "<group>"; };
 		32E4BB7021117D1D00D8035C /* launchBackground6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchBackground6.png; path = "../../../../do math stuff/images/launchBackground6.png"; sourceTree = "<group>"; };
-		32E4BB842117408800D8035C /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../../Downloads/Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +108,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E4BB8D211740E200D8035C /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +159,6 @@
 				32C3FE6420E624C700D22936 /* LaunchScreen.storyboard */,
 				3283E2A3210601ED00442F64 /* Assets.xcassets */,
 				32C3FE6720E624C700D22936 /* Info.plist */,
-				32E4BB842117408800D8035C /* Charts.xcodeproj */,
 			);
 			path = domath;
 			sourceTree = "<group>";
@@ -230,15 +200,6 @@
 			name = globalVariables;
 			sourceTree = "<group>";
 		};
-		32E4BB852117408800D8035C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				32E4BB8A2117408800D8035C /* Charts.framework */,
-				32E4BB8C2117408800D8035C /* ChartsTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -254,7 +215,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				32E4BB90211740E200D8035C /* PBXTargetDependency */,
 			);
 			name = domath;
 			productName = domath;
@@ -273,7 +233,7 @@
 				TargetAttributes = {
 					32C3FE5720E624C700D22936 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -293,35 +253,12 @@
 			mainGroup = 32C3FE4F20E624C700D22936;
 			productRefGroup = 32C3FE5920E624C700D22936 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 32E4BB852117408800D8035C /* Products */;
-					ProjectRef = 32E4BB842117408800D8035C /* Charts.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				32C3FE5720E624C700D22936 /* domath */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		32E4BB8A2117408800D8035C /* Charts.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Charts.framework;
-			remoteRef = 32E4BB892117408800D8035C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		32E4BB8C2117408800D8035C /* ChartsTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = ChartsTests.xctest;
-			remoteRef = 32E4BB8B2117408800D8035C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		32C3FE5620E624C700D22936 /* Resources */ = {
@@ -380,14 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		32E4BB90211740E200D8035C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Charts;
-			targetProxy = 32E4BB8F211740E200D8035C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		32C3FE5F20E624C700D22936 /* Main.storyboard */ = {
@@ -525,13 +454,15 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S8LBLGHJFU;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = domath/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Suss.example.domath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -542,6 +473,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S8LBLGHJFU;
 				INFOPLIST_FILE = domath/Info.plist;
@@ -549,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Suss.example.domath;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
